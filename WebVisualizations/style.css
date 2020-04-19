@@ -1,0 +1,107 @@
+body {
+    background: rgb(211, 211, 211);
+    padding: 10px;
+  }
+  
+  .skyblue {
+    background: rgb(255, 255, 255);
+  }
+  
+  .box{
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    margin-top:50px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+  
+  .navbar-default .navbar-brand {
+    color: #ffffff;
+    background-color: rgb(84, 170, 170);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+  }
+  
+  .navbar li {
+    display: d-block;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer;
+  }
+
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;}
+  h1 {
+    font-size: 36px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+  h2 {
+    font-size: 22px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+  
+  p{
+      font-size: 18px;
+  }
+  
+  .c-d{color:white;
+    font-size: 30px;
+  }
+  
+  .latitude {
+    color: white;
+    font-family: verdana;
+    font-size: 45px;
+    background-color: rgb(32,178,170);
+    border: 1px solid rgb(32,178,170);
+      padding: 15px;
+  }
+
+  @media (max-width: 500px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .box {
+      margin-right: 22px;
+      margin-left: 22px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
+  .col-1 {width: 8%;}
+  .col-2 {width: 17%;}
+  .col-3 {width: 24%;}
+  .col-4 {width: 32%;}
+  .col-5 {width: 40%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 60%;}
+  .col-8 {width: 65%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 82%;}
+  .col-11 {width: 92%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+
+      [class*="col-"] {
+          width: 100%;
+      }
+  }
